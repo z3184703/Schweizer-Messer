@@ -4,8 +4,6 @@ project(sm_python)
 find_package(catkin_simple REQUIRED)
 catkin_simple()
 
-include_directories(${Eigen_INCLUDE_DIRS})
-
 add_definitions(-std=c++0x -D__STRICT_ANSI__)
 
 # Set up the python exports.
